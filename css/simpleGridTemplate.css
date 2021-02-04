@@ -14,13 +14,13 @@ body {
 }
 /* Header */
 header {
-	width: 100%;
+	width: auto;
 	height: 8%;
 	background-color: #5D5E5D;
 	border-bottom: 1px solid #353635;
 }
 .logo {
-	color: #fff;
+	color: #ffa;
 	font-weight: bold;
 	margin-left: auto;
 	letter-spacing: 4px;
@@ -31,7 +31,7 @@ header {
 	font-size: 22px;
 }
 .hero_header {
-	color: #FFFFFF;
+	color: #FFFFAA;
 	text-align: center;
 	margin: 0;
 	letter-spacing: 4px;
@@ -143,6 +143,7 @@ header {
 	transition: all 0.3s linear;
 }
 .button:hover {
+	width: 100%;
 	background-color: #6DC7D0;
 	color: #FFFFFF;
 	cursor: pointer;
@@ -164,7 +165,10 @@ footer {
 	padding-bottom: 60PX;
 }
 .intro {
+	width:100%;
+	height:auto;
 	display: inline-block;
+	
 	background-color: #6DC7D0;
 }
 .profile {
